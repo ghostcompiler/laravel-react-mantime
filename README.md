@@ -1,7 +1,7 @@
 # Laravel React Mantine
 
 <p align="center">
-  <img src="public/images/logo.png" alt="Laravel React Mantine Logo" width="180">
+  <img src="https://assets.ghostcompiler.in/logo.png" alt="Laravel React Mantine Logo" width="180">
 </p>
 
 <p align="center">

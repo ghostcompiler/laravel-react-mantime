@@ -206,7 +206,9 @@ This starter was developed using **ServBay** as the local development environmen
 
 ### ServBay your development friend
 
-
+<p>
+  <img src="https://assets.ghostcompiler.in/servbay.png" alt="ServBay Icon" width="96">
+</p>
 
 ### Testing And Build Machine
 

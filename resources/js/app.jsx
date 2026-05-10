@@ -1,4 +1,3 @@
-import '../css/app.css';
 import { createInertiaApp } from '@inertiajs/react';
 import { MantineProvider } from '@mantine/core';
 import ThemeToggle from '../components/ThemeToggle/ThemeToggle';
@@ -11,9 +10,11 @@ const progressColor = typeof document === 'undefined'
         .trim() || '#2BDD66';
 
 createInertiaApp({
-    pages: '../pages',
-    extension: '.jsx',
-    lazy: true,
+    pages: {
+        path: '../pages',
+        extension: '.jsx',
+        lazy: false,
+    },
     withApp(app) {
         return (
             <MantineProvider

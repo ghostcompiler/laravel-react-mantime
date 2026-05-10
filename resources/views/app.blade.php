@@ -21,7 +21,7 @@
             }
         </script>
         @viteReactRefresh
-        @vite('resources/js/app.jsx')
+        @vite(['resources/css/app.css', 'resources/js/app.jsx'])
         <x-inertia::head />
     </head>
     <body>
